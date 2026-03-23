@@ -85,7 +85,7 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
  
 process_image(
     os.path.join(BASE, "images", "input_grey.jpg"),
-    os.path.join(BASE, "images", "output_binary.jpg"),
+    os.path.join(BASE, "images", "output_binary.png"),
 )
  
 print("\n Done!")
